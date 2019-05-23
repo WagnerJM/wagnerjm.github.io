@@ -1,5 +1,9 @@
-# Test
+# Index
 
-{{ page.path }}
-
-{{ site.baseurl }}{% post_url 2019-05-23-test %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

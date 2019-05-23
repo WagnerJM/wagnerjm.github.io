@@ -1,4 +1,7 @@
 # Index
+Diese Webseite dient dazu Infomationen für mich,  zu den verschiedenen Software-Entwicklungs Themen, zu sammeln.
+
+## Blog Posts
 
 <ul>
   {% for post in site.posts %}
